@@ -1,26 +1,33 @@
-body {
-  height: 100%;
-  background: linear-gradient(90deg, #8b8888 50%, white 50%);
+*{margin: 0, padding: 0, font-family: arial; text-align: center;}
+
+#home{
+  background-color: pink;
+  height: 300px;
 }
 
-.heading1 {
+#about{
+  background-color: rgb(196, 179, 182);
+  height: 300px;
+  
+}
+
+#portfolio{
+  background-color: rgb(160, 202, 229);
+  height: 300px;
+}
+
+#contact{
+  background-color: rgb(207, 231, 141);
+  height: 300px;
+}
+
+.nav{
   color: red;
-  font-family: monospace;
-  font-size: 80px;
-  text-align: center;
-  margin-top: 310px;
-  margin-bottom: 5px;
 }
 
-.heading2 {
-  font-family: monospace;
-  font-size: 80px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
 
-ul {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+
+
+
+
