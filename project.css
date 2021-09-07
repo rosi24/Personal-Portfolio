@@ -1,29 +1,29 @@
 *{margin: 0, padding: 0, font-family: arial; text-align: center;}
 
+html{
+  scroll-behavior: smooth;
+}
+
 #home{
   background-color: pink;
-  height: 300px;
+  height: 500px;
 }
 
 #about{
   background-color: rgb(196, 179, 182);
-  height: 300px;
-  
+  height: 500px;
 }
 
 #portfolio{
-  background-color: rgb(160, 202, 229);
-  height: 300px;
+  background-color: rgb(119, 162, 212);
+  height: 500px;
 }
 
 #contact{
   background-color: rgb(207, 231, 141);
-  height: 300px;
+  height: 500px;
 }
 
-.nav{
-  color: red;
-}
 
 
 
