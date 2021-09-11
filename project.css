@@ -1,36 +1,40 @@
-*{margin: 0, padding: 0, font-family: arial; text-align: center;}
+*{margin: 50%, padding: 0, font-family: arial; text-align: center;}
 
 html{
   scroll-behavior: smooth;
 }
 
 #home{
-  background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
-  height: 600px;
-  font-size: 40px;
+  background: linear-gradient(90deg, white 50%, #00FFFF 50%);
+  height: 650px;
+  font-size: 30px;
   font-family: monospace;
+  
 }
 
 #about{
-  background-color: rgb(196, 179, 182);
-  height: 600px;
+  background: linear-gradient(90deg, white 50%, rgb(233, 165, 165) 50%);
+  height: 650px;
+  line-height:3;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 30px;
 }
-
+ 
 #portfolio{
-  background-color: rgb(119, 162, 212);
-  height: 600px;
+  background: linear-gradient(90deg, white 50%, rgb(224, 224, 165) 50%);
+  height: 650px;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #contact{
-  background-color: rgb(207, 231, 141);
+  background-color: white;
   height: 600px;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 30px;
 }
+
+
 
 
 
