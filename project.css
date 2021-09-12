@@ -18,6 +18,7 @@ html{
   line-height:3;
   font-family: monospace;
   font-size: 30px;
+  padding-top: 50px;
 }
  
 #portfolio{
@@ -25,6 +26,7 @@ html{
   height: 650px;
   font-family: monospace;
   font-size: 30px;
+  padding-top: 50px;
 }
 
 #contact{
@@ -34,9 +36,17 @@ html{
   font-size: 30px;
 }
 
+.boxed{
+  font-size: 20px;
+  margin-left: 800px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
 ::placeholder {
   color: red;
   opacity: 1; 
+  
 }
 
 
