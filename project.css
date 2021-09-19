@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   color: transparent;
+  font-size: 20px;
 }
 
 body {
@@ -9,10 +10,16 @@ body {
 
 #home {
   height: 600px;
-  font-size: 40px;
-  font-family: monospace;
+  font-size: 30px;
+  font-family: Lucida Handwriting;
   padding-top: 300px;
   text-align: center;
+}
+
+#role {
+  font-size: 50px;
+  padding-top: 20px;
+  font-family: monospace;
 }
 
 #about {
@@ -23,6 +30,13 @@ body {
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
+}
+
+.photo {
+  margin-left: 200px;
+  margin-right: 0px;
+  text-align: left;
+  opacity: 0.9;
 }
 
 #portfolio {
@@ -47,6 +61,7 @@ body {
   font-size: 20px;
   margin-left: 750px;
   margin-right: 60px;
+  margin-top: 10px;
   text-align: justify;
 }
 
