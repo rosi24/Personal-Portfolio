@@ -8,6 +8,17 @@ body {
   background: linear-gradient(90deg, white 50%, rgb(117, 209, 216) 50%);
 }
 
+nav a {
+  color: rgb(190, 184, 184);
+  margin-left: 30px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: grey;
+}
+
 #home {
   height: 600px;
   font-size: 30px;
