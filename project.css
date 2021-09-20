@@ -16,7 +16,7 @@ nav a {
 }
 
 nav a:hover {
-  color: grey;
+  color: rgb(48, 46, 46);
 }
 
 #home {
@@ -43,11 +43,30 @@ nav a:hover {
   text-align: center;
 }
 
-.photo {
+.container1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.container1 div {
+  border: none;
+}
+
+.box1 {
+  flex: 1;
   margin-left: 200px;
   margin-right: 0px;
   text-align: left;
   opacity: 0.9;
+  justify-content: left;
+}
+
+.box2 {
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+  text-align: justify;
 }
 
 #portfolio {
@@ -66,14 +85,6 @@ nav a:hover {
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
-}
-
-.boxed {
-  font-size: 20px;
-  margin-left: 750px;
-  margin-right: 60px;
-  margin-top: 10px;
-  text-align: justify;
 }
 
 #text1 {
