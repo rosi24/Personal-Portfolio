@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  background: linear-gradient(90deg, white 50%, rgb(117, 209, 216) 50%);
+  background: linear-gradient(90deg, white 50%, rgb(209, 233, 235) 50%);
 }
 
 nav a {
   color: rgb(190, 184, 184);
   margin-left: 30px;
-  font-family: monospace;
+  font-family: serif;
   font-size: 20px;
 }
 
@@ -30,14 +30,14 @@ nav a:hover {
 #role {
   font-size: 50px;
   padding-top: 20px;
-  font-family: monospace;
+  font-family: serif;
 }
 
 #about {
-  background: linear-gradient(90deg, white 50%, rgb(199, 107, 91) 50%);
+  background: linear-gradient(90deg, white 50%, rgb(224, 184, 176) 50%);
   height: 650px;
   line-height: 3;
-  font-family: monospace;
+  font-family: Lucida Handwriting;
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
@@ -47,6 +47,7 @@ nav a:hover {
   display: flex;
   margin-left: 20px;
   margin-right: 100px;
+  font-family: serif;
 }
 
 .container1 div {
@@ -70,18 +71,18 @@ nav a:hover {
 }
 
 #portfolio {
-  background: linear-gradient(90deg, white 50%, rgb(162, 162, 235) 50%);
+  background: linear-gradient(90deg, white 50%, rgb(217, 243, 227) 50%);
   height: 650px;
-  font-family: monospace;
+  font-family: serif;
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 30px;
   text-align: center;
 }
 
 #contact {
   background-color: white;
   height: 600px;
-  font-family: monospace;
+  font-family: serif;
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
@@ -89,31 +90,51 @@ nav a:hover {
 
 .project1 {
   width: 300px;
+  height: 300px;
   border: 5px solid grey;
+  background-color: grey;
   padding: 50px;
   margin: 70px;
-  margin-top: 150px;
+  margin-top: 100px;
   float: left;
 }
 
 .project2 {
   width: 300px;
+  height: 300px;
   border: 5px solid grey;
+  background-color: grey;
   padding: 50px;
   margin: 70px;
-  margin-top: 150px;
+  margin-top: 100px;
   float: right;
 }
 
 .project3 {
   width: 300px;
+  height: 300px;
   border: 5px solid grey;
+  background-color: grey;
   padding: 50px;
   margin: 70px;
-  margin-top: 150px;
+  margin-top: 100px;
   float: left;
 }
 
-#footer {
-  background-color: white;
+.me {
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Lucida Handwriting;
+  margin-top: 200px;
+  float: row;
+}
+
+.email {
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Lucida Handwriting;
+  margin-top: 200px;
+  float: row right;
 }
