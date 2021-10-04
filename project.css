@@ -122,23 +122,17 @@ nav a:hover {
 }
 
 .me {
-  border: 1px solid black;
   width: 400px;
   height: 40px;
   font-size: 20px;
   font-family: Lucida Handwriting;
   margin-top: 180px;
-  margin-left: 30px;
-  float: row;
 }
 
 .email {
-  border: 1px solid black;
   width: 400px;
   height: 40px;
   font-size: 20px;
   font-family: Lucida Handwriting;
   margin-top: 50px;
-  margin-left: 30px;
-  float: row;
 }

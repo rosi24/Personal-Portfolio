@@ -17,6 +17,6 @@ I used a mixtures of online turtorials and website to support me to craft my por
 
 # Challenges Faced
 
-The main challenge I faced was creating my repository on GitHub and linking it to my code. With the support of my mentor I was able to understand what I needed to do to>>>>.
+The main challenge I faced was creating my repository on GitHub and linking it to my code. With the support of my mentor, I was able to begin to understand why I had gone wrong and what I needed to do to recify it.
 
 Another challenge I faced was aligning the text on the 'About' page to ensure that the text was aligned to the right and the photo was aligned to the left. Once I created div classes with the section tab, I was able to align the text using CSS.
