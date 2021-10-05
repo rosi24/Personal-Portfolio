@@ -121,18 +121,12 @@ nav a:hover {
   float: left;
 }
 
-.me {
-  width: 400px;
-  height: 40px;
-  font-size: 20px;
-  font-family: Lucida Handwriting;
-  margin-top: 180px;
+.col-md-6 {
+  margin-left: 30px;
+  font-family: serif;
 }
 
-.email {
-  width: 400px;
-  height: 40px;
-  font-size: 20px;
-  font-family: Lucida Handwriting;
-  margin-top: 50px;
+.col-md-12 {
+  margin-left: 30px;
+  font-family: serif;
 }
