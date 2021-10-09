@@ -48,11 +48,13 @@ nav a:hover {
   margin-left: 20px;
   margin-right: 100px;
   font-family: serif;
+  border-radius: 10px;
 }
 
 .container1 div {
   border: none;
   border-radius: 10px;
+  padding-top: 90px;
 }
 
 .box1 {
@@ -120,6 +122,17 @@ nav a:hover {
   background-color: white;
 }
 
+#contact {
+  text-align: center;
+  height: 650px;
+  font-family: serif;
+  font-size: 40px;
+  padding-top: 30px;
+
+}
+
+
+
 .h1-responsive {
   text-align: center;
   font-family: serif;
@@ -138,6 +151,7 @@ nav a:hover {
 
 .form-control{
   max-width: 600px;
+ 
 }
 
 .col-md-6 {
@@ -153,24 +167,24 @@ nav a:hover {
 
 .contact-subject {
   padding-right: 50px;
+  
 }
 
 .md-form {
   width: 50%;
+  
 }
 
 .col-md-3 {
   text-align: left;
   padding-top: 100px;
+  font-size: 20px;
+  padding-right: 100px;
+
 }
 
 .list-unstyled{
   float🇨🇫left;
-}
-
-.text-center{
-  text-align: left;
-  color: green;
 }
 
 .footer {
@@ -179,6 +193,5 @@ nav a:hover {
   bottom: 0;
   width: 100%;
   font-size: 12px;
-  
   color: black;
   text-align: center;
