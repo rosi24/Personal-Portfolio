@@ -127,64 +127,48 @@ nav a:hover {
   height: 650px;
   font-family: serif;
   font-size: 40px;
-  padding-top: 30px;
-
+  padding-top: 90px;
 }
 
-
-
-.h1-responsive {
-  text-align: center;
-  font-family: serif;
-  font-size: 40px;
-  background-color: white;
-  padding-bottom: 30px;
-}
-
-.row {
+.form-row {
   display: flex;
-  justify-content: flex-start;
-  margin-left: 30px;
-  padding-left: 50px;
-  max-width: 1800px;
-}
-
-.form-control{
-  max-width: 600px;
- 
-}
-
-.col-md-6 {
-  margin-left: 30px;
-  font-family: serif;
-}
-
-.col-md-12 {
-  margin-left: 30px;
-  font-family: serif;
-  width: 20px;
-}
-
-.contact-subject {
-  padding-right: 50px;
-  
-}
-
-.md-form {
-  width: 50%;
-  
-}
-
-.col-md-3 {
-  text-align: left;
-  padding-top: 100px;
-  font-size: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+  padding-top: 30px;
+  padding-left: 700px;
   padding-right: 100px;
-
 }
 
-.list-unstyled{
-  float🇨🇫left;
+.col {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+.boxed {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding-left: 100px;
+  margin-left: 100px;
+  margin-right: 800px;
+  font-size: 20px;
+  font-family: serif;
+  text-align: center;
+}
+
+.button {
+  font-size: 20px;
+  font-family: serif;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+
+  height: 40px;
+  width: 100px;
 }
 
 .footer {
@@ -195,3 +179,4 @@ nav a:hover {
   font-size: 12px;
   color: black;
   text-align: center;
+}
