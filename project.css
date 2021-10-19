@@ -41,6 +41,29 @@ nav a:hover {
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+#myBtn {
+  margin-left: 1200px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 10px;
+  text-align: center;
+  border: pink;
+  color: white;
+  background-color: rgb(226, 13, 49);
+}
+
+.top {
+  margin-top: -130px;
+  border-radius: 100%;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 128, 128);
+  border-radius: 100%;
 }
 
 .container1 {
@@ -64,6 +87,7 @@ nav a:hover {
   text-align: left;
   opacity: 0.9;
   justify-content: left;
+  margin-bottom: 30px;
 }
 
 .box2 {
@@ -127,7 +151,20 @@ nav a:hover {
   height: 650px;
   font-family: serif;
   font-size: 40px;
-  padding-top: 90px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.boxed {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding-left: 100px;
+  margin-left: 100px;
+  margin-right: 800px;
+  font-size: 20px;
+  font-family: serif;
+  text-align: center;
 }
 
 .form-row {
@@ -147,18 +184,6 @@ nav a:hover {
   width: 500px;
 }
 
-.boxed {
-  display: flex;
-  justify-content: center;
-  border: 1px solid white;
-  padding-left: 100px;
-  margin-left: 100px;
-  margin-right: 800px;
-  font-size: 20px;
-  font-family: serif;
-  text-align: center;
-}
-
 .button {
   font-size: 20px;
   font-family: serif;
@@ -166,9 +191,9 @@ nav a:hover {
   background-color: black;
   color: white;
   margin-left: 150px;
-
   height: 40px;
   width: 100px;
+  padding-bottom: 10px;
 }
 
 .footer {
@@ -179,4 +204,5 @@ nav a:hover {
   font-size: 12px;
   color: black;
   text-align: center;
+  margin-top: 40px;
 }
