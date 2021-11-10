@@ -37,7 +37,7 @@
             <h2>About</h2>
                 <div class="container1">
                     <div class="box1">
-                        <img src="Face.jpg">
+                        <!-- <img src="Face.jpg"> -->
                     </div>
                     <div class="box2">
                         <p>Hello you &#128075! 
@@ -78,29 +78,31 @@
                 </div>
         <!-- <form > --> 
         <form action="https://formspree.io/f/mjvjqgkr" method="POST"></form>
-            <form>
-                    <div class="form-row"> 
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Message"> 
-                        </div>
-                    </div>
+            <div class="form-row"> 
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Name" name="name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email" name="email">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Subject" name="subject">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Message" name="message"> 
+                </div>
+                </div>
             </div>
             </form>
             <!--https://www.w3schools.com/tags/tag_button.asp-->
-            <button class="button" onclick="alert('I will contact you soon!')"><h4>Send</h4></button> 
+            <button class="button">
+            <h4>Send</h4>
+            </button> 
             <!-- Section: Contact v.2 -->
-            <div class="footer">
-                <p>Rosita Mirbod 2021</p>
-            </div>
-        </section>
+           
+        </section> 
+        <footer class="footer">
+            <p>Rosita Mirbod 2021</p>
+        </footer>
     </body>
 </html>
