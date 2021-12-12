@@ -20,7 +20,7 @@ nav a:hover {
 }
 
 #home {
-  height: 600px;
+  /* height: 600px; */
   font-size: 30px;
   font-family: Lucida Handwriting;
   padding-top: 300px;
@@ -30,12 +30,13 @@ nav a:hover {
 #role {
   font-size: 50px;
   padding-top: 20px;
+  margin-bottom: 100px;
   font-family: serif;
 }
 
 #about {
   background: white;
-  height: 650px;
+  /* height: 650px; */
   line-height: 3;
   font-family: Lucida Handwriting;
   font-size: 40px;
@@ -47,7 +48,7 @@ nav a:hover {
 #myBtn {
   margin-left: 1250px;
   border-radius: 50%;
-  height: 40px;
+  /* height: 40px; */
   width: 40px;
   font-size: 10px;
   font-family: serif;
@@ -99,11 +100,12 @@ nav a:hover {
   font-size: 20px;
   text-align: center;
   text-align: justify;
+  margin-bottom: 100px;
 }
 
 #portfolio {
   background: white;
-  height: 650px;
+  /* height: 650px; */
   font-family: serif;
   font-size: 40px;
   padding-top: 30px;
@@ -119,8 +121,10 @@ nav a:hover {
   border-radius: 10px;
   padding: 50px;
   margin: 70px;
-  margin-top: 60px;
+  margin-top: 120px;
   float: left;
+  text-align: center;
+  margin-bottom: 250px;
 }
 
 .project2 {
@@ -132,8 +136,10 @@ nav a:hover {
   border-radius: 10px;
   padding: 50px;
   margin: 70px;
-  margin-top: 60px;
+  margin-top: 120px;
   float: right;
+  text-align: center;
+  margin-bottom: 250px;
 }
 
 .project3 {
@@ -145,8 +151,10 @@ nav a:hover {
   border-radius: 10px;
   padding: 50px;
   margin: 70px;
-  margin-top: 60px;
+  margin-top: 120px;
   float: left;
+  text-align: center;
+  margin-bottom: 250px;
 }
 
 .my-5 {
@@ -155,7 +163,7 @@ nav a:hover {
 
 #contact {
   text-align: center;
-  height: 650px;
+  /* height: 650px; */
   font-family: serif;
   font-size: 40px;
   padding-top: 30px;
@@ -165,14 +173,15 @@ nav a:hover {
 
 .whole {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 300px;
   border-spacing: 25px;
   padding-top: 80px;
 }
 
 .boxed {
   display: flex;
+  justify-content: space-between;
   border: 1px solid white;
   padding-left: 300px;
   font-size: 20px;
@@ -213,31 +222,99 @@ nav a:hover {
 }
 
 .container1 {
-   {
     flex-direction: column;
-  }
 }
 
 .whole {
-   {
-    flex-direction: column;
-  }
+   flex-direction: column;
 }
 
 .col {
-   {
+    flex-direction: column;
+}
+
+@media screen and (min-width: 244px) and (max-width: 767px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 336px) and (max-width: 767px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+  @media screen and (min-width: 336px) and (max-width: 767px) {
+  #role {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 336px) and (max-width: 767px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 336px) and (max-width: 767px) {
+  #box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen (max-width: 368px) {
+  #portfolio {
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+  @media screen (max-width: 368px) {
+  #project1 {
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+  @media screen (max-width: 368px) {
+  #project2 {
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+  @media screen (max-width: 368px) {
+  #project3 {
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+@media screen and (min-width: 368px) and (max-width: 767px) {
+  #contact {
+    font-size: 25px;
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 768px) {
-  #role {
+@media screen and (min-width: 368px) and (max-width: 767px) {
+  .box2 {
     font-size: 25px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  #role {
-    color: red;
+    flex-direction: column;
   }
 }
