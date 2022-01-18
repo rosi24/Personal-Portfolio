@@ -24,6 +24,7 @@ nav a:hover {
   font-size: 30px;
   font-family: Lucida Handwriting;
   padding-top: 300px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -69,10 +70,13 @@ nav a:hover {
   right: 20px;
 }
 
-.container1 {
+.about-container1 {
   display: flex;
-  margin-left: 20px;
-  margin-right: 100px;
+  justify-content: space space-between;
+  margin: 30px;
+  /* margin-left: 20px;
+  margin-right: 100px; */
+  margin-bottom: 150px;
   font-family: serif;
   border-radius: 10px;
 }
@@ -83,7 +87,7 @@ nav a:hover {
   padding-top: 90px;
 }
 
-.box1 {
+.about-box1 {
   display: flex;
   justify-content: space-between;
   flex: 1;
@@ -93,14 +97,14 @@ nav a:hover {
   opacity: 0.9;
 }
 
-.box2 {
+.about-box2 {
   display: flex;
   justify-content: space-between;
   flex: 1;
   font-size: 20px;
   text-align: center;
   text-align: justify;
-  margin-bottom: 100px;
+  
 }
 
 #portfolio {
@@ -110,51 +114,28 @@ nav a:hover {
   font-size: 40px;
   padding-top: 30px;
   text-align: center;
+  margin-bottom: 200px;
 }
 
-.project1 {
+.project-container {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  text-align: center;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.project-tile {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   border: 5px solid rgb(204, 182, 182);
   background-color: rgb(204, 182, 182);
   border-radius: 10px;
-  padding: 50px;
-  margin: 70px;
-  margin-top: 120px;
-  float: left;
-  text-align: center;
-  margin-bottom: 250px;
-}
-
-.project2 {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-  border: 5px solid rgb(204, 182, 182);
-  background-color: rgb(204, 182, 182);
-  border-radius: 10px;
-  padding: 50px;
-  margin: 70px;
-  margin-top: 120px;
-  float: right;
-  text-align: center;
-  margin-bottom: 250px;
-}
-
-.project3 {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-  border: 5px solid rgb(204, 182, 182);
-  background-color: rgb(204, 182, 182);
-  border-radius: 10px;
-  padding: 50px;
-  margin: 70px;
-  margin-top: 120px;
-  float: left;
-  text-align: center;
-  margin-bottom: 250px;
+  /* padding: 50px;
+  margin: 70px; */
+  
 }
 
 .my-5 {
@@ -163,7 +144,6 @@ nav a:hover {
 
 #contact {
   text-align: center;
-  /* height: 650px; */
   font-family: serif;
   font-size: 40px;
   padding-top: 30px;
@@ -171,26 +151,30 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.whole {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 300px;
-  border-spacing: 25px;
-  padding-top: 80px;
+.contact-container1 {
+  /* display: flex;
+  justify-content: space-between; */
+  /* flex-direction: row; */
+  /* padding-right: 300px; */
+  /* border-spacing: 25px;
+  padding-top: 80px; */
 }
 
 .boxed {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
+  flex-direction: row;
   border: 1px solid white;
-  padding-left: 300px;
+  /* padding-left: 300px; */
   font-size: 20px;
-  font-family: serif;
+  font-family: serif; 
 }
 
 .form-row {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 160px;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   padding-left: 250px;
 }
@@ -208,7 +192,7 @@ nav a:hover {
   border-radius: 10px;
   background-color: rgb(175, 162, 162);
   color: white;
-  margin-left: 150px;
+  /* margin-left: 10px; */
   height: 40px;
   width: 100px;
 }
@@ -222,15 +206,15 @@ nav a:hover {
 }
 
 .container1 {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .whole {
-   flex-direction: column;
+  flex-direction: column;
 }
 
 .col {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 244px) and (max-width: 767px) {
@@ -241,7 +225,6 @@ nav a:hover {
   }
 }
 
-
 @media screen and (min-width: 336px) and (max-width: 767px) {
   #home {
     display: flex;
@@ -249,29 +232,20 @@ nav a:hover {
     text-align: center;
   }
 }
-
-  @media screen and (min-width: 336px) and (max-width: 767px) {
-  #role {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+#role {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-
-@media screen and (min-width: 336px) and (max-width: 767px) {
-  #about {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+#about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-
-@media screen and (min-width: 336px) and (max-width: 767px) {
-  #box2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+#box2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media screen (max-width: 368px) {
@@ -282,39 +256,31 @@ nav a:hover {
   }
 }
 
-  @media screen (max-width: 368px) {
-  #project1 {
-    font-size: 25px;
-    flex-direction: column;
-    text-align: center;
-  }
+#project1 {
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
 }
 
-  @media screen (max-width: 368px) {
-  #project2 {
-    font-size: 25px;
-    flex-direction: column;
-    text-align: center;
-  }
+#project2 {
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
 }
 
-  @media screen (max-width: 368px) {
-  #project3 {
-    font-size: 25px;
-    flex-direction: column;
-    text-align: center;
-  }
+#project3 {
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
+}
 
 @media screen and (min-width: 368px) and (max-width: 767px) {
   #contact {
     font-size: 25px;
     flex-direction: column;
   }
-}
 
-@media screen and (min-width: 368px) and (max-width: 767px) {
   .box2 {
     font-size: 25px;
     flex-direction: column;
   }
-}
