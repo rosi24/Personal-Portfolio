@@ -151,21 +151,7 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.contact-container1 {
-  /* display: flex;
-  justify-content: space-between; */
-  /* flex-direction: row; */
-  /* padding-right: 300px; */
-  /* border-spacing: 25px;
-  padding-top: 80px; */
-}
-
 .boxed {
-  /* display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border: 1px solid white;
-  /* padding-left: 300px; */
   font-size: 20px;
   font-family: serif; 
 }
@@ -192,7 +178,6 @@ nav a:hover {
   border-radius: 10px;
   background-color: rgb(175, 162, 162);
   color: white;
-  /* margin-left: 10px; */
   height: 40px;
   width: 100px;
 }
