@@ -160,7 +160,6 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   margin-left: 160px;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   padding-left: 250px;
 }
@@ -202,70 +201,46 @@ nav a:hover {
   flex-direction: column;
 }
 
-@media screen and (min-width: 244px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #navbar {
-    display: flex;
     flex-direction: column;
     text-align: center;
-  }
 }
 
-@media screen and (min-width: 336px) and (max-width: 767px) {
   #home {
-    display: flex;
     flex-direction: column;
     text-align: center;
   }
-}
+
 #role {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-#about {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-#box2 {
-  display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-@media screen (max-width: 368px) {
+#about {
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 368px) and (max-width: 768px) {
+  .about-box1 {
+    flex-direction: column;
+}
+
+.about-box2 {
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 368px) and (max-width: 768px) {
   #portfolio {
     font-size: 25px;
     flex-direction: column;
     text-align: center;
-  }
 }
 
-#project1 {
-  font-size: 25px;
-  flex-direction: column;
-  text-align: center;
-}
-
-#project2 {
-  font-size: 25px;
-  flex-direction: column;
-  text-align: center;
-}
-
-#project3 {
-  font-size: 25px;
-  flex-direction: column;
-  text-align: center;
-}
-
-@media screen and (min-width: 368px) and (max-width: 767px) {
-  #contact {
-    font-size: 25px;
-    flex-direction: column;
-  }
-
-  .box2 {
-    font-size: 25px;
-    flex-direction: column;
+@media screen and (min-width: 368px) and (max-width: 768px) {
+  .project-container {
+    flex-direction: column; 
+    margin: 50px 20px;
   }
