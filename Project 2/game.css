@@ -1,0 +1,78 @@
+body {
+    background: pink;
+}
+
+.choicecontainer {
+  display: flex;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 40px;
+  border-radius: 4%;
+  background: rgb(168, 80, 80);
+  font-size: 30px;
+  min-width: 300px;
+}
+
+.choicecontainer:hover {
+  cursor: pointer;
+  box-shadow: 0.04rem 1.4rem 0 rgba(red, green, blue, alpha);
+  transform: scale(1.02);
+  transform: 100ms;
+}
+
+.choiceprefix {
+  padding: 2rem 2.5rem;
+  color: white;
+}
+
+.choicetext {
+  padding: 2rem;
+  width: 100%;
+  color: white;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0% (blue) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/* Heads Up Display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.hudprefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hudmaintext {
+    text-align: center;
+}
+
+#progresBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background: rgb(11, 223, 36);
+  width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .choicecontainer {
+    min-width: 40rem;
+  }
+
+
