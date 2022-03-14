@@ -1,3 +1,43 @@
-* / body {
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+body {
+  background-color: rgb(36, 32, 32);
+}
+
+#howto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Nova Square;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 20px;
+  width: 80vw;
+  height: 40vh;
+  background: linear-gradient(
+    90deg,
+    rgb(18, 92, 255) 0%,
+    rgb(0, 102, 255) 100%
+  );
+  border-radius: 4px;
+}
+
+#button {
+  display: flex;
+  border-radius: 4px;
+  font-size: 10px;
+  font-family: Nova Square;
+  padding: 20px;
+  width: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 250px;
+  text-decoration: none;
+  color: yellow;
+  background: linear-gradient(
+    90deg,
+    rgb(18, 92, 255) 0%,
+    rgb(0, 102, 255) 100%
+  );
 }
