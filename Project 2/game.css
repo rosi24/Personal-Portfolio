@@ -1,78 +1,112 @@
-body {
-    background: pink;
+* / body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
 }
 
-.choicecontainer {
+.panel {
+  background-color: black;
+  height: 100vh;
   display: flex;
-  margin-bottom: 30px;
-  width: 80%;
-  height: 40px;
-  border-radius: 4%;
-  background: rgb(168, 80, 80);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  width: 80vw;
+  height: 10vh;
+  background-color: green;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+}
+
+.option-container {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0;
+  margin: 10px;
+  padding: 5px;
+  width: 80vw;
+  height: 20vh;
+  background-color: green;
+}
+
+.option {
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+  width: 150px;
+  height: 60px;
   font-size: 30px;
-  min-width: 300px;
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 4px;
+  text-align: center;
 }
 
-.choicecontainer:hover {
-  cursor: pointer;
-  box-shadow: 0.04rem 1.4rem 0 rgba(red, green, blue, alpha);
-  transform: scale(1.02);
-  transform: 100ms;
+.option:hover {
+  background-color: yellow;
 }
 
-.choiceprefix {
-  padding: 2rem 2.5rem;
-  color: white;
+.navigation {
+  width: 1070px;
+  height: 10vh;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
 }
 
-.choicetext {
-  padding: 2rem;
-  width: 100%;
-  color: white;
+.evaluate,
+.next {
+  display: flex;
+  margin-top: 10px;
+  width: 30vw;
+  height: 8vh;
+  padding: 20px;
+  font-size: larger;
 }
 
-.correct {
-    background: linear-gradient(32deg, rgba(11, 223, 36) 0% (blue) 100%);
+.evaluate {
+  display: flex;
+  background-color: red;
+  align-items: center;
+  border-radius: 4px;
 }
 
-.incorrect {
-    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
-}
-
-/* Heads Up Display */
-#hud {
-    display: flex;
-    justify-content: space-between;
-    color: red;
-}
-
-.hudprefix {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.hudmaintext {
-    text-align: center;
-}
-
-#progresBar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid rgb(11, 223, 36);
-    margin-top: 2rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-
-#progressBarFull {
-  height: 100%;
-  background: rgb(11, 223, 36);
-  width: 0%;
+.next {
+  display: flex;
+  color: black;
+  background-color: red;
+  align-items: center;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 768px) {
   .choicecontainer {
     min-width: 40rem;
   }
+
+
+
+
+
+
+
 
 
